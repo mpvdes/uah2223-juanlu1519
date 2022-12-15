@@ -4,6 +4,6 @@ Este es el repositorio de trabajo inicial del [Máster de formación permanente 
 
 ## Documentos
 
-- [Pruebas con Markdown] (pruebas-markdown.md)
-- [Pruebas con Github] (pruebas-github.md)
+- [Pruebas con Markdown](pruebas-markdown.md)
+- [Pruebas con Github](pruebas-github.md)
 ![Logo de MPVD en UAH](https://mpvd.es/images/logo.svg "MPVD en UAH")
