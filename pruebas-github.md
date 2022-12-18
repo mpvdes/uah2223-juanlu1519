@@ -29,11 +29,17 @@ Hay que tener en cuenta algunos comandos básicos como:
  
 ## Ver readme como web
 
-
+Para ello debemos seguir los siguientes pasos:
+1. Ir a nuestro repositorio personal, en mi caso [aquí](https://github.com/mpvdes/uah2223-juanlu1519)
+2. Entrar en *Settings*
+3. En la columna izquierda de *Code and Automation*, entrar en *Pages*
+4. En la sección *GitHub Pages*, debemos marcar *Publish site*
 
 ## Enlazar páginas
 
+Una vez tenemos nuestro readme publicado como página principal, nos interesa enlazar diferentes páginas en ella. 
 
+Para ello tenemos que escribir [] seguido de (nombre archivo.md) para enlazar a otro archivo markdown que hayamos creado. Como ejemplo podemos ver [esta página](pruebas-terminal.md) creado para documentar lo aprendido con la terminal cygwin.
 
 ## Conectar nuestro ordenador con Github
 
