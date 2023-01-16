@@ -8,4 +8,8 @@ Este es el repositorio de trabajo inicial del [Máster de formación permanente 
 - [Pruebas con Github](pruebas-github.md)
 - [Pruebas con terminal](pruebas-terminal.md)
 
+## Charlas y talleres
+
+- [Charla de Alba Martín](charla-alba-martín.md)
+
 ![Logo de MPVD en UAH](https://mpvd.es/images/logo.svg "MPVD en UAH")
