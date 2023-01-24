@@ -84,7 +84,9 @@ grep: Este comando es muy útil para filtrar palabras dentro de archivos o carpe
 
 date: Para saber la hora con precisión
 
-man comando o comando --help : Para saber más de ese comando 
+man comando o comando --help : Para saber más de ese comando
+
+alias: Para asignarle un alias a lo que deseemos. Por ejemplo: python = python3 . Cada vez que escribamos python se "ejecutará" python3.
 
 ## Vincular Cygwin con Github
 
@@ -99,6 +101,7 @@ git status: Comprobar como está git
 cat../.token: Te enseña el token, que es la contraseña que te pide el programa para subir los cambios
 
 git pull: Lo contrario a git push.
+
 
 ## Programas instalados en la terminal
 
