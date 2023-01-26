@@ -36,6 +36,8 @@ alt + I : Activar sangrado
 
 alt + S: Paginar
 
+ctrl + K: Borrar toda la línea
+
 ### Comandos cygwin
 
 cygstart archivo.html : Para abrir en nuestro navegador un archivo html.
@@ -143,7 +145,58 @@ Para ver como está hecha una web podemos darle a inspeccionar.
 - Mostrar código: Para mostrar código lo hacemos con <code> y si queremos mostrar múltiples líneas de código, las encerramos en <pre>.
 - Otros enlaces: <script> para enlazar un script de javascript, por ejemplo. Con este también podemos escribir el código JS directamente en nuestro HTML. Si queremos enlazar a nuestra hoja de estilo CSS, podemos hacerlo con <link>.
 
+## CSS
+
+Hoja de estilos en cascada, es el código que utilizamos para dar estilo a la web. Podemos dar color, tamaño al texto o el fondo de elementos, la maquetación de los mismos, etc.
+No es un lenguaje de programación ni de marcado. Es un lenguaje de hojas de estilo
+Permite aplicar estilos de manera selectiva o "en cascada" a elementos en el HTML
+
+### Configuración
+
+Para que tengan efecto se guardará en .css en una carpeta llamada CSS que estará al mismo nivel que el archivo HTML. Y además tendremos que vincular este archivo desde el html entre las etiquetas <head> y </head>. Ejemplo:
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+Se puede añadir formato css en el propio archivo HTML pero no es lo recomendable.
+
+### Estructura
+
+![Estructura CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png)
+
+Cada regla debe estar entre {}. Usar los dos puntos ":" para separar la propiedad de su valor
+Usar el punto y coma ";" para separar una declaración de la siguiente.
+
+```
+p {
+  color: red;
+}
+```
+Si cambiamos la p por h1, head, html, etc. podemos cambiar las propiedades de esa parte en concreto. Si a mi index.html le indico el atributo class="ejemplo" luego en el .css puedo indicar lo siguiente:
+
+```
+p.ejemplo {
+  color: red;
+}
+```
+h1+p lo aplica en <h1> y <p> y en body>p lo aplica al <body> pero excluye a <p> que está dentro de él.
+
+### Cajas
+
+Podemos pensar los elementos HTML como cajas apiladas una sobre otra. Cada caja tiene una serie de propiedades como estas:
+- color
+- border border-top, border-bottom, border-rig
+    ht... Ejemplo: border-top: 3px solid green
+- padding (relleno), el espacio alrededor del contenido
+- border (marco), la línea que se encuentra fuera del relleno
+- margin (margen), el espacio fuera del elemento que lo separa de los demás
+- background-color: color trasero
+- font-family: fuente deseada. Mejor usar tipografías seguras, que se puedan ver en todos los sistemas operativos. Puede indicar lo siguiente: font-family: Arial, Verdana, sans-serif; En este caso usará como primera opción una Arial y las siguientes si no tienen Arial instalada.
+- font-weight: para indicar el grosor: bold, regular, thin, light...
+- font-style: italic, normal, oblic...
+- font-size: con px o em (el tamaño que tenga la M mayúscula respecto a su elemento padre). Ejemplo: 2em. También existem rem, que es sobre el elemento root. 
+- Enlaces: link, hover, visited.
+- text-align: alinear texto: center...
 ## Webs recomendables
 
-w3schools
+[W3 Schools, elementos HTML](https://w3schools.com)
+
 [Formatos válidos de tiempo](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time#valid_datetime_values)
