@@ -8,6 +8,7 @@ Este es el repositorio de trabajo inicial del [Máster de formación permanente 
 - [Pruebas con Github](pruebas-github.md)
 - [Pruebas con terminal](pruebas-terminal.md)
 - [Apuntes Módulo 3 "Sistemas interactivos"](sistemas-interactivos.md)
+- [Apuntes Módulo 4 "Medios digitales"](medios-digitales.md)
 
 ## Charlas y talleres
 
