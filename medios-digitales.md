@@ -80,5 +80,5 @@ Un grupo de licencias que están en medio de las dos anteriores, algunos derecho
 ##### Creative Commons
 
 Es fácilmente entendibles (iconos, texto simplificado y texto legal completo, organización de **aplicación internacional** sin fines de lucros creada en EEUU en 2002. Es la más usada. Restringe la autoría, explotación económica/comercial, modificación de la obra y relicenciamiento.
-![Tipos de licencias Creative Commons](https://www.google.com/url?sa=i&url=https%3A%2F%2Fblogs.imf-formacion.com%2Fblog%2Fcorporativo%2Fmarketing-digital%2F6-tipos-de-licencias-creative-commons%2F&psig=AOvVaw2aCc6WIeiYPaA4gsRc-mRN&ust=1676489290128000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNj-lrnflf0CFQAAAAAdAAAAABAE)
+![Tipos de licencias Creative Commons](https://blogs.imf-formacion.com/blog/corporativo/wp-content/uploads/2018/05/6-tipos-de-licencias-Creative-Commons.png)
 
