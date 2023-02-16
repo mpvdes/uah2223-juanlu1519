@@ -1,92 +1,219 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport"  content="width=device-width, initial-scale=1" />
-        <title>Mi página en Bootstrap</title>
+        <title>Página de Juanlu</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet"/>
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/bebasneueregular" type="text/css"/>
     </head>
     <body>
+   
         <!-- barra de navegación -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Juan Luis Monterroso</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Juan Luis Monterroso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Curriculum Vitae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
-            </div>
             <!-- portada -->
 
-            <section class="portada d-flex flex-col justify-content-center align-items-center ">
-                <h1> Hola, soy Juanlu </h1>
-                <h2> esta es mi portada web </h2>
-                <p>aqui aprendemos emacs</p>
-                
+            <section class="portada">
+                <img src="img/perfil.jpeg" class="imagen-portada" alt="Imagen de perfil de Juan Luis Monterroso"/>
+                <h1>Hola, soy Juanlu</h1>
+                <h2>Bienvenidos a mi  página web</h2>
+                <p>Aquí podréis conocerme más y contactar conmigo si lo necesitáis</p>
             </section>
-            <p> * Phasellus neque orci, porta a, aliquet quis, semper a, massa. Lorem ipsum
-                dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus.
-                Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget,
-                convallis nec, purus. Cum sociis natoque penatibus et magnis dis parturient
-                montes, nascetur ridiculus mus. Nulla posuere. Donec vitae dolor. Nullam
-                tristique diam non turpis. Cras placerat accumsan nulla. Nullam rutrum. Nam
-                vestibulum accumsan nisl.</p>
 
-            
-            
-        
-
-            <!-- pruebas de bootstrap -->
-
-            <div class="row">
-           <div class="col-sm-4 col-lg-6 columna">columna 1</div>
-           <div class="col-sm-8 col-lg-6 columna">columna2</div>
-            </div>
+                <!-- Sobre mi -->
+                
+            <section class="sobre-mi">
             <div class="container">
-           <div class="row">
-               <div class="col"> Columna container 1</div>
-               <div class="col"> Columna container 2</div>
-               <div class="col"> Columna container 3</div>
-           </div>
-            </div>
-            <div  class="container d-flex justify-content-center align-items-center contenedor">
-           <div class="caja flex-grow-1">caja 1</div>
-           <div class="caja">caja 2</div>
-           <div class="caja flex-fill">caja 32435325353525335532532355323</div>
+                <h2 class="section-title">Sobre mí</h2>
+                <p class="section-text">En esta sección podéis conocerme un poco más.</p>
+                
+                  <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button bg-dark" style="color:white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Primeros pasos
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Me llamo Juan Luis Monterroso Aranda. Nací el 19 de Agosto de 1995 en Girona. Siempre he ido a la escuela pública, primero al CEIP Montfalgars y luego al IES Santa Eugènia. Allí estudié el bachillerato humanístico, lo que me permitió adquirir los conocimientos y la nota necesaria para acceder a la carrera de Periodismo.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed bg-dark" style="color:white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Etapa universitaria
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>En 2013 me mudé a Barcelona para estudiar Periodismo en la Universitat Autònoma de Barcelona. Era lo que siempre había querido estudiar y en 2017 me gradué. Unos meses más tarde, me trasladé a Madrid para especializarme y empezar un Máster en Periodismo Deportivo en la Universidad Rey Juan Carlos.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed bg-dark" style="color:white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Nuevos comienzos
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <p>Varios años después, tras pasar por varios proyectos, me matriculé en el <a href="https://mpvd.es/" target=”_blank">Máster en Periodismo y Visualización de Datos</a> de la Universidad de Alcalá.
+          </p>
+      </div>
+    </div>
+  </div>
+                  </div>
 
             </div>
+            </section>
 
+                <!-- Currículum Vitae -->
+
+            <section class="curriculum-vitae">
+                <div class="container">
+                    <h2 class="section-title">Currículum Vitae</h2>
+                    <p class="section-text">En los últimos años he pasado por varios medios de comunicación realizando todo tipo de tareas.</p>
+                    <div class="container mt-3">
+                       
+                        <table class="table table-dark table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Empresa</th>
+                                    <th>Puesto</th>
+                                    <th>Duración</th>
+                                    <th>Tareas</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img class="img-fluid" src="img/vavel.png" alt="Vavel"></td>
+                                    <td>Redactor</td>
+                                    <td>1 año</td>
+                                    <td>Jefe de redacción de la UE Llagostera. Noticias, crónicas y reportajes sobre el club catalán.</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-fluid" src="img/tv3.png" alt="TV3"></td>
+                                    <td>Redactor</td>
+                                    <td>>1 año</td>
+                                    <td>Prácticas en la delegación de Girona de TV3. Búsqueda de noticias, acompañamiento en los rodajes, edición de vídeo y soporte en realización.</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-fluid" src="img/gol.png" alt="Gol Televisión"></td>
+                                    <td>Redactor</td>
+                                    <td>>1 año</td>
+                                    <td>Prácticas en la redacción de El Golazo de Gol. Edición de vídeo y reporterismo.</td>
+                                </tr>
+                                <tr>
+                                    <td><img class="img-fluid" src="img/mediapro.png" alt="Mediapro"></td>
+                                    <td>Documentalista</td>
+                                    <td>3 años</td>
+                                    <td>Tares de documentación en el proyecto El Observatorio de La Liga.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+                    <p class="section-text">Asímismo, he realizado colaboraciones puntuales en los siguientes medios:</p>
+                    <img class="img-fluid-colab" src="img/radio-marca.png" alt="Radio Marca">
+                    <img class="img-fluid-colab" src="img/copa-reina.png" alt="Copa de la Reina de Baloncesto 2017">
+                    <img class="img-fluid-colab" src="img/ddg.png" alt="Diari de Girona">
+                   
+                </div>
+            </section>
+
+            <!-- Habilidades -->
+
+            <section class="habilidades">
+                <div class="container">
+                    <h2 class="section-title">Habilidades</h2>
+                    <p class="section-text"> Aquí indicaré mis habilidades </p>
+                  
+                    <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped" style="width: 80%">Edición de vídeo</div>
+                    </div>
+                    <br>
+                    <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 75%">Ofimática</div>
+</div>
+<br>
+<div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar progress-bar-striped bg-success" style="width: 30%">Edición de imagen</div>
+</div>
+<br>
+<div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar progress-bar-striped bg-warning" style="width: 30%">Edición web</div>
+</div>
+<br>
+<div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped bg-danger" style="width: 20%">Programación</div>
+</div>
+                </div>
+            </section>
+
+            <!-- Contacto -->
+
+            <section class="contacto">
+                <div class="container">
+                    <h2 class="section-title">Contacto</h2>
+                    <p class="section-text">Si queréis contactar conmigo podéis hacerlo por correo electrónico o por redes sociales. </p>
+
+                    <button type="button" class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+  <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"></path>
+  <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"></path>
+                </svg>
+                Correo electrónico
+                    </button>
+                    <button type="button" class="btn btn-outline-danger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
+                        </svg>
+                        LinkedIn
+                    </button>
+                    <button type="button" class="btn btn-outline-danger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                </svg>
+                Instagram
+                    </button>
+                    <button type="button" class="btn btn-outline-danger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                        </svg>
+                        Twitter
+                    </button>
+                </div>
+            </section>
+                -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
