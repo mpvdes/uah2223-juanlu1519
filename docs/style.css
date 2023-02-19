@@ -3,10 +3,14 @@
    
 }
 
+.container{
+    
+}
+
 .portada{
     background-color: #0099cc;
     min-height: 450px;
-    text-align: left;
+    text-align: center;
     margin: 10px;
 }
 
@@ -24,11 +28,22 @@ body {
 
 .curriculum-vitae{
     background-color: #0099cc;
-    min-height: 450px;
     text-align: center;
     margin: 10px;
     align-items: center;
     padding: 70px;
+}
+
+.card-img-top{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+h5{
+    font-size: 2rem;
 }
 
 .sobre-mi{
@@ -53,10 +68,14 @@ section{
 }
 
 .section-text{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 p{
+    font-size: 1.5rem;
+}
+
+ul{
     font-size: 1.5rem;
 }
 
@@ -79,20 +98,23 @@ p{
     padding: 70px;
 }
 
-.img-fluid{
-    max-width: 50px;
-    margin: 10px;
-    border-radius: 20%;
-}
-
 .img-fluid-colab{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
     max-width: 300px;
     margin: 10px;
-    border-radius: 20%;
 }
 
 .progress-bar{
     font-size: 1.3em;
     color: #212529;
     
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
