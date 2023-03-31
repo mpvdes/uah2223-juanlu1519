@@ -44,6 +44,53 @@ cygstart archivo.html : Para abrir en nuestro navegador un archivo html.
 
 python -m http.server: si copiamos el puerto que nos devuelve http://[::]:8000/ y cambiamos esos corchetes en el navegador por localhost nos enseña el estado de nuestra web en nuestro servidor. Usaremos CTRL + C en la terminal para abortar misión.
 
+### Comandos EMACS
+
+![Logo Emacs](https://w7.pngwing.com/pngs/228/946/png-transparent-purple-symbol-emacs-purple-violet-logo.png)
+
+CTRL X + K : Eliminar buffer
+
+CTRL X + CTRL F: Moverme por mi directorio
+
+CTRL L
+y
+SHIFT TAB : Ir hacia atrás
+
+CTRL C + CTRL S : Guardar
+
+**ALT X** : Pulsando estas teclas puedo escribir diferentes comandos.
+
+CTRL ESPACE : Marcar una región
+
+CTRL C + CTRL E + W : Tag name, te encierra contenido donde le indiques (p, h1, h2...)
+
+CTRL C + CTRL F : Fold
+
+CTRL X + 1 : Único buffer.
+
+CTRL C + CTRL A + I : Atributo
+
+CTRL X + O : Cambiar de buffer
+
+ALT Q : Ajustar texto a pantalla
+
+CTRL X : Volver al anterior buffer
+
+ALT W : Cortar
+
+CTRL Y : Pegar
+
+CTRL X + 3 : Pantalla dividida. Tambien puedo usar CTRL O y CTRL F.
+
+CTRL X + 1 : Un único buffer
+
+CTRL "+" : Zoom sobre el buffer
+
+CTRL C + CTRL E + K : Eliminar caja
+
+CTRL X + U : Undo, deshacer
+
+
 ### Identificadores
 
 Permite identificar un elemento único de una página HTML. Solo se permite un único elemento por ID. Sirven para hacer marcadores y saltar a esa parte de la página. Es una forma de navegar dentro de la web
@@ -195,8 +242,116 @@ Podemos pensar los elementos HTML como cajas apiladas una sobre otra. Cada caja 
 - font-size: con px o em (el tamaño que tenga la M mayúscula respecto a su elemento padre). Ejemplo: 2em. También existem rem, que es sobre el elemento root. 
 - Enlaces: link, hover, visited.
 - text-align: alinear texto: center...
+
+### Fuentes
+
+Para darle estilo al texto. Para hacerlo desde CSS podemos hacerlo con la propiedad font-family. Ejemplo:
+
+""
+p {
+  font-family: arial;
+}
+""
+
+### Webfonts
+
+Si queremos utilizar una tipografía online o webfont, tenemos varios métodos:
+
+- Con @font-face (CSS)
+""
+@font-face {
+  font-family: myFont;
+  src: url("url de la webfont");
+  font-weight: bold; 
+}
+
+p {
+    font-family: myFont;
+}
+""
+- Con @import es el método para importar otros recursos locales o externos. Tiene que ir al inicio del CSS.
+""
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+p {
+    font-family: 'Roboto', sans-serif;
+}
+""
+- Con <link>
+""
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/futura-renner" type="text/css"/> 
+""
+
+""
+ p {
+   font-family: 'FuturaRennerRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+""
+
+Podemos seleccionar la fuente en Google fonts. En **selected family**, vamos a **link** y seleccionamos la tercera linea si lo queremos para HTML. 
+
+Ejemplo: <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+También está la opción de CSS.
+
+Ejemplo: font-family: 'Roboto', sans-serif;
+
+### Bootstrap
+
+Es un framework
+
+### Javascript
+
+Para variables, usar let antes que var. 
+También existen las constantes. const. Ejemplo: const diasSemana = 7;
+const horasDia = 24
+    
+
+Usar 0-9, a-z y A-Z. Evitar caracteres tipo ñ. Preferiblemente camelCase.
+
+Las variables pueden ser: 
+- números, 
+- strings: entre comillas
+- booleanos (true/false), 
+- arrays (listas): entre corchetes. Ejemplo: let nombres = ["Ana","Cris","Juanlu","Paula","Sergi"];
+let edades = [31,32,30,30,35];
+- objetos: entre {}. ejemplo: let perro = {nombre : "chispas", raza : "dálmata"}
+Para recuperar la información almacenada en el objeto podemos usar:
+perro.nombre // Nos devuelve "chispas"
+perro.raza // Nos devuelve "dálmata"
+        
+## Scrollama
+
+Trabaja con section: Intro, scrolling y outro.
+
+function init: es lo primero que hace scrollama
+- handleResize
+- scroller
+- debug: es la linea donde se activa el siguiente elemento. probar cambiar true/false
+- offset: entre 0 y 1
+- onStepEnter (handle StepEnter)
+
 ## Webs recomendables
 
 [W3 Schools, elementos HTML](https://w3schools.com)
 
 [Formatos válidos de tiempo](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time#valid_datetime_values)
+
+[Google fonts](https://fonts.google.com)
+
+[OpenFont Library](https://openfontlibrary.org/)
+
+[Ejemplos Scrollama](https://github.com/russellsamora/scrollama#scrollama-in-the-wild)
+
+[Juxtapose JS](https://juxtapose.knightlab.com/)
+
+[Timeline JS](https://timeline.knightlab.com/)
+
+[Soundcite JS](https://soundcite.knightlab.com/)
+
+[Storyline JS](https://storyline.knightlab.com/)
+
+[Validator w3, accesibilidad](https://validator.w3.org/)
+
+[WebAim, accesibilidad](https://webaim.org/)
