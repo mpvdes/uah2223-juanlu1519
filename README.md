@@ -24,5 +24,6 @@ Este es el repositorio de trabajo inicial del [Máster de formación permanente 
 - [Charla de Sanju Tiwari](charla-sanju-tiwari.md)
 - [Charla de Adrián Blanco](charla-adrian-blanco.md)
 - [Charla de Ferran Morales](charla-ferran-morales.md)
+- [Charla de José Leal](charla-jose-leal.md)
 
 ![Logo de MPVD en UAH](https://mpvd.es/images/logo.svg "MPVD en UAH")
