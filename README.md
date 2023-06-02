@@ -10,6 +10,8 @@ Este es el repositorio de trabajo inicial del [Máster de formación permanente 
 - [Apuntes Módulo 3 "Sistemas interactivos"](sistemas-interactivos.md)
 - [Apuntes Módulo 4 "Medios digitales"](medios-digitales.md)
 - [Apuntes Módulo 6 "Ciencia de Datos"](ciencia-datos.md)
+- [Apuntes Módulo 7 "Adquisición de Datos"](adquisicion-datos.md)
+- [Apuntes Módulo 8 "Visualización Interactiva"](visualizacion-interactiva.md)
 
 ## Charlas y talleres
 
@@ -25,5 +27,12 @@ Este es el repositorio de trabajo inicial del [Máster de formación permanente 
 - [Charla de Adrián Blanco](charla-adrian-blanco.md)
 - [Charla de Ferran Morales](charla-ferran-morales.md)
 - [Charla de José Leal](charla-jose-leal.md)
+- [Charla François Musseau](charla-francois-musseau.md)
+- [Charla Javier Barriuso](charla-javier-barriuso.md)
+- [Charla Laura Martín](charla-laura-martin.md)
+- [Charla Mariluz Congosto](charla-mariluz-congosto.md)
+- [Charla MPVD 2021/2022](charla-mpvd-2122.md)
+- [Charla Pablo Rey](charla-pablo-rey.md)
+
 
 ![Logo de MPVD en UAH](https://mpvd.es/images/logo.svg "MPVD en UAH")

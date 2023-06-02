@@ -1,0 +1,42 @@
+.row{
+   /* color: white;*/
+    background-color: blue;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 5px;
+}
+
+.columna{
+    background-color: yellow;
+    border: 2px dotted brown;
+    padding: 5px;
+   /* margin: 5px;*/
+}
+
+.container{
+    background-color: yellow;
+    border: 2px dotted brown;
+    padding: 5px;
+    /* margin: 5px;*/
+}
+
+.contenedor{
+    background-color: grey;
+    height: 400px ;
+}
+
+.caja{
+    color: white;
+    background-color: green;
+    text-align: center;
+    line-height: 100px;
+    width: 200px;
+    /* height: 200px; */
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.portada{
+    background-color: rgba(210,170,248);
+    min-height: 450px;
+}
