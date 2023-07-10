@@ -12,6 +12,9 @@ Este es el repositorio de trabajo inicial del [Máster de formación permanente 
 - [Apuntes Módulo 6 "Ciencia de Datos"](ciencia-datos.md)
 - [Apuntes Módulo 7 "Adquisición de Datos"](adquisicion-datos.md)
 - [Apuntes Módulo 8 "Visualización Interactiva"](visualizacion-interactiva.md)
+- [Apuntes Módulo 9 "Sistemas de Información Geográfica"](sistemas-informacion-geografica.md)
+- [Apuntes Módulo 10 "Organización de la Información"](organizacion-informacion.md)
+
 
 ## Charlas y talleres
 
@@ -33,6 +36,9 @@ Este es el repositorio de trabajo inicial del [Máster de formación permanente 
 - [Charla Mariluz Congosto](charla-mariluz-congosto.md)
 - [Charla MPVD 2021/2022](charla-mpvd-2122.md)
 - [Charla Pablo Rey](charla-pablo-rey.md)
+- [Charla Juan Elosua](charla-juan-elosua.md)
+- [Charla Miren Berasategi](charla-miren-berasategi.md)
+- [Charla Victoria Oliveres](charla-victoria-oliveres.md)
 
 
 ![Logo de MPVD en UAH](https://mpvd.es/images/logo.svg "MPVD en UAH")
