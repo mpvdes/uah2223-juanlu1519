@@ -29,3 +29,5 @@ Puedo añadir un archivo csv, json, gif, etc a mi sketch de processing simplemen
 [Dataspace](https://dataspace.copernicus.eu/)
 
 [Centro Descargas CNIG](https://centrodedescargas.cnig.es/CentroDescargas/index.jsp)
+
+[Coolors - Paleta de colores](https://coolors.co/)
