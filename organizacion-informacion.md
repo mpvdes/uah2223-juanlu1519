@@ -178,6 +178,44 @@ Ejemplo: me devuelve el nombre, apellido y año de nacimiento de la tabla *músi
 
 SELECT nombre,apellidos, YEAR(nacimiento) FROM 'musicos';
 
+##### Filtrar con Order
+
+SELECT * FROM employee ORDER by super_id, salary (filtrar empleados por id de su superior y salario)
+
+SELECT * FROM employee ORDER by salary DESC (orden descendente)
+
+SELECT * FROM employee ORDER by salary LIMIT 3 (solo quiero que me devuelva 3)
+
+##### Renombrar con As
+
+SELECT first_name AS nombre FROM employee
+
+##### Filtrar con Distinct
+
+SELECT DISTINCT(super_id) FROM employee (todos los que son jefes de alguien, o sea managers)
+
+##### Filtrar con Count
+
+SELECT COUNT(*) AS num_empleados FROM employee (me dice el número de empleados)
+
+##### Filtrar con Year
+
+SELECT first_name, last_name, YEAR(birth_day) FROM employee
+
+SELECT first_name AS nombre, last_name AS apellido, YEAR(birth_day) AS anyo FROM employee WHERE YEAR(birth_day) > 1965
+
+##### Filtrar con Between
+
+SELECT first_name as nombre, last_name as apellido, year(birth_day) FROM employee WHERE year(birth_day) BETWEEN 1965 AND 1970
+
+SELECT first_name as nombre, last_name as apellido, year(birth_day) FROM employee WHERE year(birth_day) > 1965 and year(birth_day) < 1970
+
+##### Filtrar con ISNULL
+
+SELECT * FROM `employee` WHERE super_id IS NULL (Empleados que no tienen jefe)
+
+SELECT * FROM `employee` WHERE super_id IS NOT NULL (Empleados que sí tienen jefe)
+
 #### Exportar tabla
 
 Podemos cambiar el nombre de las columnas antes de exportar:
