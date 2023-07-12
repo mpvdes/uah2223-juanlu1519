@@ -216,6 +216,58 @@ SELECT * FROM `employee` WHERE super_id IS NULL (Empleados que no tienen jefe)
 
 SELECT * FROM `employee` WHERE super_id IS NOT NULL (Empleados que sí tienen jefe)
 
+##### Filrar con LIKE
+
+SELECT * FROM employee WHERE first_name LIKE "J%" (no me importa lo que vaya detrás del porcentaje)
+
+SELECT * FROM employee WHERE first_name LIKE "%M" (todos los nombres que acaben en "m")
+
+SELECT * FROM employee WHERE first_name LIKE "%a%" (todos los nombres que contengan "a")
+
+SELECT * FROM employee WHERE first_name LIKE "_a%_" (cuya segunda letra sea una "a")
+
+##### Filtrar con AVG (para medias)
+
+SELECT AVG(salary) FROM employee
+
+##### Filtrar con SUM (para sumatorios)
+
+SELECT SUM(salary) FROM employee
+
+##### Filtrar con GROUP BY (para agrupar)
+
+SELECT sex, AVG(salary) AS "sueldo_medio" FROM employee GROUP by sex
+
+##### Filtrar con UNION
+
+SELECT branch_name FROM branch
+
+UNION
+
+SELECT first_name FROM employee
+
+(Nos ha unido las dos consultas. Tienen que tener el mismo nombre de columnas)
+
+##### Filtrar con JOIN
+
+###### Inner join : combinar filas de dos o más tablas basándose en columnas comunes
+
+SELECT * FROM employee JOIN branch ON employee.branch_id = branch.branch_id
+
+SELECT emp_id, first_name, last_name, branch_name FROM employee JOIN branch ON employee.branch_id = branch.branch_id
+
+SELECT employee.emp_id, first_name, last_name, SUM(total_sales) FROM employee JOIN works_with ON employee.emp_id = works_with.emp_id GROUP by employee.emp_id
+
+#### Consultas anidadas
+
+##### Primera consulta
+
+SELECT DISTINCT(emp_id) from works_with WHERE total_sales>30000; (Me devuelve 101, 105)
+
+##### Segunda consulta (anidada)
+
+SELECT * from employee where emp_id IN ( SELECT DISTINCT(emp_id) from works_with WHERE total_sales>30000 ); 
+
 #### Exportar tabla
 
 Podemos cambiar el nombre de las columnas antes de exportar:
