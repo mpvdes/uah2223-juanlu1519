@@ -268,7 +268,35 @@ SELECT DISTINCT(emp_id) from works_with WHERE total_sales>30000; (Me devuelve 10
 
 SELECT * from employee where emp_id IN ( SELECT DISTINCT(emp_id) from works_with WHERE total_sales>30000 ); 
 
+
+
 #### Exportar tabla
 
 Podemos cambiar el nombre de las columnas antes de exportar:
 
+
+## Wikidata (SPRQL)
+
+```
+#Intel
+
+SELECT ?item ?itemLabel ?image ?next
+
+WHERE 
+
+{
+
+ ?item wdt:P279 wd:Q12047070. # Must be of a cat
+
+ ?item wdt:P18 ?image.
+
+ OPTIONAL{
+
+  ?item wdt:P156 ?next.
+
+ }
+
+ SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". } # Helps get the label in your language, if not, then en language
+
+}
+```
