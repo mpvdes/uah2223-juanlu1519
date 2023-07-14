@@ -25,6 +25,14 @@ Podemos:
 
 - Exportar mapa
 
+- Instalar pluggins en *complementos*. GeoCoding, OSM (mapa mundial OpenStreetMap), Georeferencer.
+
+- Georreferenciar, desde *capas*.
+
+- Mapas de color, count, voronoi...
+
+- Añadir capa > Texto delimitado por coma > Guardar capa como un shapefile/geojson(web)
+
 ## Recursos
 
 [Mapsf cheatsheet](https://raw.githubusercontent.com/riatelab/mapsf/master/vignettes/web_only/img/mapsf_cheatsheet.pdf)
