@@ -40,5 +40,6 @@ Este es el repositorio de trabajo inicial del [Máster de formación permanente 
 - [Charla Miren Berasategi](charla-miren-berasategi.md)
 - [Charla Victoria Oliveres](charla-victoria-oliveres.md)
 - [Charla Dominic Roye](charla-dominic-roye.md)
+- [Charla Lázaro Gamio](charla-lazaro-gamio.md)
 
 ![Logo de MPVD en UAH](https://mpvd.es/images/logo.svg "MPVD en UAH")
