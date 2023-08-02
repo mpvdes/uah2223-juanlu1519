@@ -1,10 +1,13 @@
-# Ejemplos de infografías
+# Ejemplos de infografías y mapas
 
-## Matplotlib (Python)
+### Juan Luis Monterroso Aranda
+
+## Gráfico con Matplotlib (Python)
 
 ![Gráfico viviendas turísticas](viviendasturisticas1322prueba.svg)
 
-## Plotly (Python)
+## Mapas con Mapsf (R)
 
-<iframe src="prueba-grafico-plotly.html" height="500" width="800"></iframe>
+![Mapa poblacion Catalunya](poblacion-catalunya.png)
 
+![Mapa densidad Galicia](densidad-galicia.png)
