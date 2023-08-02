@@ -14,6 +14,8 @@
 
 ![Gráfico bibliotecas](practica1_MONTERROSO.svg)
 
+![Alcaldes Girona](alcaldes-girona.svg)
+
 ## Mapas con Mapsf (R)
 
 ![Mapa poblacion Catalunya](poblacion-catalunya.png)
