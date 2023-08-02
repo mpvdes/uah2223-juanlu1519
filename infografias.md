@@ -1,4 +1,4 @@
-# Ejemplos de infografías y mapas
+# Ejemplos de infografías
 
 ### Juan Luis Monterroso Aranda
 
@@ -9,6 +9,10 @@
 ## Gráfico con Plotly (Python)
 
 ![Gráfico viviendas Plotly](viviendas.svg)
+
+## Infografía Illustrator/Inkscape
+
+![Gráfico bibliotecas](practica1_MONTERROSO.svg)
 
 ## Mapas con Mapsf (R)
 
