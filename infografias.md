@@ -6,6 +6,10 @@
 
 ![Gráfico viviendas turísticas](viviendasturisticas1322prueba.svg)
 
+## Gráfico con Plotly (Python)
+
+![Gráfico viviendas Plotly](viviendas.svg)
+
 ## Mapas con Mapsf (R)
 
 ![Mapa poblacion Catalunya](poblacion-catalunya.png)
