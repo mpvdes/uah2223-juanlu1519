@@ -10,7 +10,7 @@
 
 ![Gráfico viviendas Plotly](viviendas.svg)
 
-## Infografía Illustrator/Inkscape
+## Infografías Illustrator/Inkscape
 
 ![Gráfico bibliotecas](practica1_MONTERROSO.svg)
 
@@ -21,3 +21,9 @@
 ![Mapa poblacion Catalunya](poblacion-catalunya.png)
 
 ![Mapa densidad Galicia](densidad-galicia.png)
+
+## Mapa con ggplot2 (R)
+
+![Mapa población Girona](poblacion-girona-r.png)
+
+
