@@ -2,13 +2,9 @@
 
 ### Juan Luis Monterroso Aranda
 
-## Gráfico con Matplotlib (Python)
+## Infografía QGIS
 
-![Gráfico viviendas turísticas](viviendasturisticas1322prueba.svg)
-
-## Gráfico con Plotly (Python)
-
-![Gráfico viviendas Plotly](viviendas.svg)
+![Infografía Viviendas uso turístico Girona 2013-2022](comparativa-vut-2013-2022.svg)
 
 ## Infografías Illustrator/Inkscape
 
@@ -25,5 +21,13 @@
 ## Mapa con ggplot2 (R)
 
 ![Mapa población Girona](poblacion-girona-r.png)
+
+## Gráfico con Matplotlib (Python)
+
+![Gráfico viviendas turísticas](viviendasturisticas1322prueba.svg)
+
+## Gráfico con Plotly (Python)
+
+![Gráfico viviendas Plotly](viviendas.svg)
 
 
